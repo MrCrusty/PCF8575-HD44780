@@ -21,6 +21,8 @@ There is to my knowledge only one 8 Bit I2C interface specifically sold to inter
 image curtosy of "diymore Alice1101983 Store"
   
 It uses the MCP23017 chip to provide all the control bits and data bits required to run an hd44780 LCD in 8 bit mode. I have written code for it to run on a STM32 "BlackPill" development board. It works, its fast, and it easily reads the memory from the HD44780 bus. 
-This function is possibly in 4 bit mode as 
+
+## So why design and build my own I2C dual 8 bit port device using the PCF8575 the answer is that the MCP23017 chip needs at least one more I/O pin to be supplied by the MCU in the guise of a reset line, this is essential in my view as the adressing mode of the device can be two diferent options. The other problem for me is that it has far more registers than I need to run the LCD.
+
 
 
