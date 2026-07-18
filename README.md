@@ -2,9 +2,11 @@
 
 <img width="734" height="299" alt="8BIT 12C HD44780" src="https://github.com/user-attachments/assets/4a51e56c-c4e3-4eed-8347-276308d4dafb" />
 
-# Hardware PCB using a PCF8575 I2C 8bit custom interface for LCD HD44780
+# Hardware Kicad 10.x 3D render of PCB using a PCF8575 I2C 8bit custom interface for LCD HD44780
 
-# Software driver provided for STM32 "BlackPill" board development.
+# A Software driver is provided for STM32 "BlackPill" development board.
+ 
+### Hitachi brought the HD44780 to market 40 years ago, I was just turning 40 and in that year at my employer complained at the exhorbitant cost of using this in a multimeter that could have quite have easily been an off the peg analogue AVO.
 
 There is to my knowledge only one 8 Bit I2C interface specifically sold to interface directly with the pins of an HD44780LCD display
 
